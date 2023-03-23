@@ -1,0 +1,126 @@
+
+.App{
+    background-image:url(./img/Screenshot_20230109_140553.png);
+    background-size: contain;
+    height: 97vh;
+    display: grid;
+}
+.header{
+    height: 80px;
+    margin: 10px;
+    /* background-color: rgb(196, 196, 196); */
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    /* color: rgb(0, 111, 105); */
+    color: darkblue;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(93, 91, 91);
+}
+.footer{
+    display: flex;
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 50px;
+    bottom: 12px;
+    background-color: rgba(196, 196, 196, 0.8);
+    margin: 10px;
+    min-width: 97.3vw;
+    color: rgb(0, 111, 105);
+    font-style: italic;
+}
+.TextArea{
+    /* display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 200px; */
+    width: 50%;
+    height:88%;
+    /* background-color: rgba(151, 220, 236, 0.8);
+    color:rgb(0, 111, 105) ; */
+    /* color: rgba(2, 4, 63, 0.934); */
+    color: floralwhite;
+    /* color:rgba(13, 45, 62, 0.8); */
+    font-size:1.5em;
+}
+.images{
+    
+    height: 70%;
+    width: 45%;
+    margin-bottom: 200px;
+    padding-left: 10px;
+    /* padding-right: 50px; */
+}
+.body{
+    display:flex;
+    margin-top: 100px;
+}
+.FirstPage{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+/* table{
+  border: 2px solid black; 
+} */
+td{
+    /* border: 1px solid ; */
+    padding: 10px;
+}
+a{
+    color: rgb(44, 213, 188);
+}
+.link{
+    font-size: 20px;
+}
+.clg{
+    font-size: 20px;
+}
+@media screen and (min-width:850px){
+    .images{
+        top:50px;
+        right: 50px;
+        height: 60%;
+        width: 35%;
+        margin-bottom: 200px;
+        padding-left: 10px;
+    }
+    .TextArea{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:700px){
+    .images{
+        height: 150px;
+        width: 150px;
+        display: flex;
+        padding-left: 50px;
+    }
+    .TextArea{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+    .clg{
+        font-size: small;
+    }
+}
+@media screen and (max-width:400px){
+    .images{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        padding-left: 60px;
+        padding-bottom: 150px;
+        padding-right: 50px;
+    }
+    .TextArea{
+        padding-top: 45px;
+    }
+}
