@@ -8,7 +8,7 @@ import Tech from "./component/images/tech.png";
 import { Parallax,ParallaxLayer } from "@react-spring/parallax";
 function App() {
   return (
-    <div className={styles.App}>
+    <div>
       <Parallax pages={2}>
         <ParallaxLayer 
         offset={0} 
@@ -24,9 +24,9 @@ function App() {
           <Header/>
           <div className={styles.FirstPage}>
             Hello!!!<br></br>
-            {/* Thanks for considering my Portfolio<br></br>
+            Thanks for considering my Portfolio<br></br>
             I can guarantee you that,I will do my best if you give me an opportunity!!!<br></br>
-            I have attached my Portfolio below. */}
+            I have attached my Portfolio below.
           </div>
         </ParallaxLayer>
         <ParallaxLayer 

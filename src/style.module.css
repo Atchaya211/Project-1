@@ -1,10 +1,10 @@
 
-.App{
+/* .App{
     background-image:url(./img/Screenshot_20230109_140553.png);
     background-size: contain;
     height: 97vh;
     display: grid;
-}
+} */
 .header{
     height: 80px;
     margin: 10px;
@@ -19,7 +19,7 @@
     font-style: italic;
     text-shadow: 5px 5px 5px rgb(93, 91, 91);
 }
-.footer{
+/* .footer{
     display: flex;
     position: fixed;
     padding-top: 10px;
@@ -31,7 +31,7 @@
     min-width: 97.3vw;
     color: rgb(0, 111, 105);
     font-style: italic;
-}
+} */
 .TextArea{
     /* display: flex;
     align-self: center;
