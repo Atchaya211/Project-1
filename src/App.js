@@ -13,7 +13,7 @@ function App() {
         <ParallaxLayer 
         offset={0} 
         speed={1}
-        factor={3}
+        factor={2}
         style={{
           backgroundImage:`url(${Blue})`,
           backgroundSize:'cover',
@@ -23,7 +23,7 @@ function App() {
         >
           <Header/>
           <div className={styles.FirstPage}>
-            {/* Hello!!!<br></br> */}
+            Hello!!!<br></br>
             {/* Thanks for considering my Portfolio<br></br>
             I can guarantee you that,I will do my best if you give me an opportunity!!!<br></br>
             I have attached my Portfolio below. */}
@@ -32,7 +32,7 @@ function App() {
         <ParallaxLayer 
         offset={1}
         speed={1.5}
-        factor={3}
+        factor={4}
         style={{
           backgroundImage: `url(${Tech})`,
           backgroundSize:'cover'
