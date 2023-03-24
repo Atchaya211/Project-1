@@ -12,8 +12,8 @@ function App() {
       <Parallax pages={2}>
         <ParallaxLayer 
         offset={0} 
-        speed={1}
-        factor={2}
+        speed={2}
+        factor={3}
         style={{
           backgroundImage:`url(${Blue})`,
           backgroundSize:'cover',
@@ -31,8 +31,8 @@ function App() {
         </ParallaxLayer>
         <ParallaxLayer 
         offset={1}
-        speed={1.5}
-        factor={4}
+        speed={1}
+        factor={3}
         style={{
           backgroundImage: `url(${Tech})`,
           backgroundSize:'cover'
