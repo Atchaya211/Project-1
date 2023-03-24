@@ -5,6 +5,11 @@
     height: 97vh;
     display: grid;
 } */
+.wraper{
+    margin: 0 auto;
+    object-fit: cover;
+    
+}
 .header{
     height: 80px;
     margin: 10px;
