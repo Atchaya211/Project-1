@@ -3,6 +3,7 @@ const TextArea=()=>{
     return(
         <div className={styles.TextArea}>
             <table>
+                <tbody>
                 <tr>
                     <td>Name</td>
                     <td>Atchaya S</td>
@@ -43,6 +44,7 @@ const TextArea=()=>{
                     <td></td>
                     <td>Pattukkottai.</td>
                 </tr>
+                </tbody>
             </table>
         </div>
     );
