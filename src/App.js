@@ -1,6 +1,5 @@
 import styles from "./style.module.css";
 import Header from "./component/Header";
-// import Footer from "./component/Footer";
 import TextArea from "./component/TextArea";
 import Pic from "./component/images/my pic.jpg";
 import Blue from "./component/images/gradient.png";
@@ -38,22 +37,17 @@ function App() {
           backgroundSize:'cover'
         }}
         >
-          {/* <TextArea/>
-          <img src={Pic} alt="My Pic" className={styles.images} ></img> */}
           <div className={styles.body}>
             <TextArea/>
             <img src={Pic} alt="My Pic" className={styles.images} ></img>
           </div>
-          {/* <Footer/> */}
         </ParallaxLayer>
       </Parallax>
-      {/* <Footer/> */}
       {/* <Header/>
       <div className={styles.body}>
       <TextArea/>
       <img src={Pic} alt="My Pic" className={styles.images} ></img>
-      </div>
-      <Footer/> */}
+      </div>*/}
     </div>
   );
 }

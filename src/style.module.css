@@ -8,7 +8,7 @@
 .wraper{
     margin: 0 auto;
     object-fit: cover;
-    
+
 }
 .header{
     height: 80px;
@@ -127,5 +127,8 @@ a{
     }
     .TextArea{
         padding-top: 45px;
+    }
+    .FirstPage{
+        font-size: medium;
     }
 }
