@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import Header from "./component/Header";
 import TextArea from "./component/TextArea";
-// import Pic from "./component/images/my pic.jpg";
+import Pic from "./component/images/my_pic.jpg";
 import Blue from "./component/images/gradient.png";
 import Tech from "./component/images/tech.png";
 import { Parallax,ParallaxLayer } from "@react-spring/parallax";
@@ -39,7 +39,7 @@ function App() {
         >
           <div className={styles.body}>
             <TextArea/>
-            {/* <img src={Pic} alt="My Pic" className={styles.images} ></img> */}
+            <img src={Pic} alt="My Pic" className={styles.images} ></img>
           </div>
         </ParallaxLayer>
       </Parallax>

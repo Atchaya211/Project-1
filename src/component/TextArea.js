@@ -18,7 +18,7 @@ const TextArea=()=>{
                 </tr>
                 <tr>
                     <td>Skills</td>
-                    <td>HTML5,CSS,js,react js</td>
+                    <td>HTML5,CSS,js,react.js,Figma</td>
                 </tr>
                 <tr>
                     <td>GitHub</td>

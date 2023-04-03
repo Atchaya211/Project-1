@@ -53,10 +53,10 @@
 }
 .images{
     
-    height: 70%;
-    width: 45%;
+    height: 45%;
+    width: 35%;
     margin-bottom: 200px;
-    padding-left: 10px;
+    padding-left: 100px;
     /* padding-right: 50px; */
 }
 .body{
