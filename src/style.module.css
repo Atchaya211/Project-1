@@ -50,12 +50,13 @@
     color: floralwhite;
     /* color:rgba(13, 45, 62, 0.8); */
     font-size:1.5em;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
 }
 .images{
     
     height: 45%;
     width: 35%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     padding-left: 100px;
     /* padding-right: 50px; */
 }
@@ -101,7 +102,7 @@ a{
 }
 @media screen and (max-width:700px){
     .images{
-        height: 150px;
+        height: 200px;
         width: 150px;
         display: flex;
         padding-left: 50px;
@@ -131,4 +132,12 @@ a{
     .FirstPage{
         font-size: medium;
     }
+}
+@media screen and (min-width:1200px) {
+    .images{
+        height: 500px;
+        width: 400px;
+        border-radius: 50px;
+    }
+    
 }
